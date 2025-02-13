@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="ccript.js"></script>
+  <style>
+  body{
+    text-align: center;
+    
+  }
+    form {
+      background-color: blue;
+      text-align: center;
+      height: 300px;
+      border: 5px solid black;
+      border-radius: 50px;
+      position:absolute;
+      width: 250px;
+      display:inline-block;
+      position: relative;
+      margin: 50% auto;
+      background: url(b.png);
+    }
+    input{
+      height: 40px;
+      position: relative;
+      border: 3px solid black;
+      border-radius: 20px;
+      top: 70px;
+      margin: 10px;
+    }
+    #d1{
+      top: 220px;
+      position: absolute;
+      right: 90px;
+      border: 3px solid black;
+      border-radius: 20px;
+      padding:5px;
+      background-color: white;
+    }
+    input:focus{
+      border: 5px dashed blue;
+      transition: border 5s ;
+    }
+    
+  </style>
+</head>
+<body>
+  
+  <form action="">
+    <div><input type="text"></div>
+    <div><input type="text"></div>
+    <div id="d1">Logging</div>
+  </form>
+</body>
+</html>
